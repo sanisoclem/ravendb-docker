@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  ravendb-A:
+    image: ravendb/ravendb:ubuntu-latest
+    ports:
+      # IPs are ignored since this is cluster-level
+      # might just use docker compose to prevent exposing this service (it's unsecured)
+      - "127.0.0.1:8080:8080"
+  ravendb-B:
+    image: ravendb/ravendb:ubuntu-latest
+    ports:
+      - "127.0.0.1:8081:8080"
