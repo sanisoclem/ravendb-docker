@@ -1,0 +1,10 @@
+{
+  "Setup.Mode": "Unsecured",
+  "Security.UnsecuredAccessAllowed": "PublicNetwork",
+  "ServerUrl": "http://0.0.0.0:8080",
+  "ServerUrl.Tcp": "tcp://0.0.0.0:38888",
+  "PublicServerUrl": "http://raven:8082",
+  "PublicServerUrl.Tcp": "tcp://raven:38890",
+  "License.Path": "./license.json",
+  "License.Eula.Accepted": true
+}

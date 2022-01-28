@@ -1,7 +1,0 @@
-{
-  "License.Eula.Accepted": true,
-  "Setup.Mode": "Unsecured",
-  "Security.UnsecuredAccessAllowed": "PublicNetwork",
-  "ServerUrl": "http://ravendb-b:8080",
-  "ServerUrl.Tcp": "tcp://ravendb-b:38888"
-}
