@@ -10,3 +10,5 @@ $ Add-Content c:\windows\system32\drivers\etc\hosts "127.0.0.1 raven1`r`n127.0.0
 # teardown
 $ docker-compose down
 ```
+
+NOTE: if using it with NServiceBus, just use two nodes as it is currently not supported.
