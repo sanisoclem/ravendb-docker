@@ -4,7 +4,7 @@ services:
   raven1:
     image: ravendb/ravendb:ubuntu-latest
     ports:
-      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:8081:8081"
       - "127.0.0.1:38888:38888"
     env_file:
       - raven.env
@@ -18,8 +18,8 @@ services:
   raven2:
     image: ravendb/ravendb:ubuntu-latest
     ports:
-      - "127.0.0.1:8081:8081"
-      - "127.0.0.1:38889:38889"
+      - "127.0.0.2:8081:8081"
+      - "127.0.0.2:38888:38888"
     env_file:
       - raven.env
     volumes:
@@ -32,8 +32,8 @@ services:
   raven3:
     image: ravendb/ravendb:ubuntu-latest
     ports:
-      - "127.0.0.1:8082:8082"
-      - "127.0.0.1:38890:38890"
+      - "127.0.0.3:8081:8081"
+      - "127.0.0.3:38888:38888"
     env_file:
       - raven.env
     volumes:
